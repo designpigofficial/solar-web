@@ -1,0 +1,22 @@
+body {
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+    line-height: 1.5;
+    color: $body-color;
+    background-color: $body-bg;
+    text-align: $body-text-align;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.text-darker {
+    color: $darker;
+}
+
+.text-light {
+    color: $light;
+}
+
+.items-center {
+    align-items: center;
+}

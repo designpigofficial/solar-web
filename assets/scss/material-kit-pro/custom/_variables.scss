@@ -1,0 +1,82 @@
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #f0f2f5 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary: #f5c55b;
+$secondary: #ff9015;
+$info: #00af9a;
+$success: #00af9a;
+$warning: #f5c55b;
+$danger: #ff9015;
+$light: $gray-300;
+$dark: $gray-600;
+$lighter: $gray-100;
+$darker: $gray-900;
+
+:root {
+--bs-font-sans-serif: "Raleway", Helvetica, Arial, sans-serif;
+
+}
+
+
+$primary-gradient:            #f5c55b;
+$primary-gradient-state:      #ff9015;
+
+$info-gradient:               #00af9a;
+$info-gradient-state:         #19626b;
+
+$dark-gradient:               $gray-600;
+$dark-gradient-state:         $gray-900;
+
+$light-gradient:              $gray-300;
+$light-gradient-state:        $gray-100;
+
+$body-bg:                   $dark;
+$body-color:                $light;
+$body-text-align:           center;
+
+$link-color:                              $light;
+$link-decoration:                         none !default;
+$link-hover-color:                        $lighter;
+$link-hover-decoration:                   none !default;
+
+$paragraph-margin-bottom:   1.2rem;
+
+$box-shadow-primary:          0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(245, 197, 91, .4);
+$box-shadow-secondary:        0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(255, 144, 21, .4);
+$box-shadow-info:             0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(0, 175, 154, .4);
+$box-shadow-warning:          0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(245, 197, 91, .4);
+$box-shadow-success:          0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(0, 175, 154, .4);
+$box-shadow-danger:           0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(255, 144, 21, .4);
+$box-shadow-dark:             0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(48, 48, 48, .4);
+$box-shadow-light:            0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(238, 238, 238, .4);
+
+
+$transition-base:             all .5s ease-in-out;
+
+$font-size-base:              1.1rem;
+
+$font-weight-light:           200;
+$font-weight-normal:          300;
+$font-weight-bold:            700;
+$font-weight-bolder:          900;
+
+$line-height:                 1.6rem;
+
+$display-font-weight: 200;
+
+$text-secondary:              #f7fcfb;
+
+
+
+
